@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.farasource.component.button.MaterialButton
+            android:id="@+id/materialButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:text="Button"
+            app:cornerRadius="7dp"
+            app:elevation="0dp"
+            app:rippleColor="?rippleColor"
+            app:strokeColor="@color/black"
+            app:strokeWidth="0dp"
+            app:useScale="true" />
+
+        <com.farasource.component.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="Button"
+            android:textColor="#FF9800"
+            app:backgroundTint="?android:colorBackground"
+            app:cornerBottomEndRadius="0dp"
+            app:cornerTopStartRadius="0dp"
+            app:elevation="5dp"
+            app:rippleColor="#FF9800"
+            app:scale="1.03"
+            app:strokeColor="#FF9800"
+            app:strokeWidth="3dp"
+            app:useScale="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:orientation="horizontal">
+
+        <com.farasource.component.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Button"
+            app:backgroundTint="#4CAF50"
+            app:cornerBottomEndRadius="0dp"
+            app:cornerTopEndRadius="0dp"
+            app:rippleColor="#fff" />
+
+        <com.farasource.component.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Button"
+            app:backgroundTint="#9C27B0"
+            app:cornerRadius="0dp"
+            app:rippleColor="#fff"
+            app:useScale="true" />
+
+        <com.farasource.component.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Button"
+            app:backgroundTint="#F42A6E"
+            app:cornerBottomStartRadius="0dp"
+            app:cornerTopStartRadius="0dp"
+            app:rippleColor="#fff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <com.farasource.component.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableStart="@drawable/ic_android_black_24dp"
+            android:text="Button"
+            app:backgroundTint="#03A9F4"
+            app:cornerBottomEndRadius="0dp"
+            app:cornerTopEndRadius="0dp"
+            app:rippleColor="#fff" />
+
+
+        <com.farasource.component.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableEnd="@drawable/ic_android_black_24dp"
+            android:drawableTint="#03A9F4"
+            android:text="Button"
+            android:textColor="#03A9F4"
+            app:backgroundTint="?android:colorBackground"
+            app:cornerBottomStartRadius="0dp"
+            app:cornerTopStartRadius="0dp"
+            app:rippleColor="#03A9F4"
+            app:strokeColor="#03A9F4"
+            app:strokeWidth="2dp" />
+    </LinearLayout>
+
+    <com.farasource.component.button.MaterialButton
+        android:id="@+id/multiColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:drawableEnd="@drawable/ic_android_black_24dp"
+        android:text="Multi color" />
+
+    <com.farasource.component.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Button"
+        android:textColor="#009688"
+        app:backgroundTint="?android:colorBackground"
+        app:rippleColor="#009688"
+        app:useScale="true" />
+
+    <com.farasource.component.button.MaterialButton
+        android:id="@+id/withoutRipple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Button"
+        android:textColor="#009688"
+        app:backgroundTint="?android:colorBackground"
+        app:rippleColor="#00000000"
+        app:scale="1.03"
+        app:useScale="true" />
+</LinearLayout>

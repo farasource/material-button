@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MaterialButton">
+        <attr name="android:background" format="reference|color" />
+        <attr name="backgroundTint" format="color" />
+        <attr name="strokeColor" format="color" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="rippleColor" format="color" />
+        <attr name="cornerTopStartRadius" format="dimension" />
+        <attr name="cornerTopEndRadius" format="dimension" />
+        <attr name="cornerBottomEndRadius" format="dimension" />
+        <attr name="cornerBottomStartRadius" format="dimension" />
+        <attr name="cornerRadius" format="dimension" />
+        <attr name="elevation" format="dimension" />
+        <attr name="scale" format="float" />
+        <attr name="useScale" format="boolean" />
+    </declare-styleable>
+
+    <style name="MaterialButton.Theme" parent="">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:minWidth">88dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="rippleColor">?android:colorControlHighlight</item>
+        <item name="backgroundTint">?android:colorPrimary</item>
+    </style>
+</resources>
